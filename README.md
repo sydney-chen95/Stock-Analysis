@@ -18,7 +18,7 @@ In 2017, the majority of the stocks in our analysis had a positive rate of retur
 
 
 
-In 2018, the majority of the stocks in our analysis had a negative rate of return. The initially favored stock, DQ, is no longer doing as well as we had hoped. It took a dip down to -62.6% rate of return as shown below. The only stocks with a positive rate of return are ENPH and RUN with a rate of return of 81.9% and 84.0% respectively. The code ran in 0.765625 seconds for the year 2018. 
+In 2018, the majority of the stocks in our analysis had a negative rate of return. The initially favored stock, DQ, is no longer doing as well as we had hoped. It took a dip down to -62.6% rate of return as shown below. The only stocks with a positive rate of return are ENPH and RUN with a rate of return of 81.9% and 84.0% respectively. The code ran in 0.734375 seconds for the year 2018. 
 
 ![2018 All Stocks Analysis Chart](https://github.com/sydney-chen95/Stock-Analysis/blob/main/Other%20images%20for%20reference/2018%20All%20Stocks%20Analysis%20Chart.png?raw=true)
 ![2018 run time](https://github.com/sydney-chen95/Stock-Analysis/blob/main/Other%20images%20for%20reference/2018%20run%20time.png?raw=true)
