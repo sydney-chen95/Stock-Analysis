@@ -11,14 +11,18 @@ The purpose of this project is to help our friend Steve to analyze the entire st
 After writing the code and running it to get all the information needed, I was able to create an output worksheet with each stock's ticker name, it's total daily volume and return rate with the respective year.  
 
 
-In 2017, the majority of the stocks in our analysis had a positive rate of return except for one which is TERP. As shown in the chart below, TERP ended up with a -7.2% rate of return. Frankly, the stock that was in favor of Steve's parents, DQ, had the highest rate of return amongst the stocks. DQ had a 199.4% return rate that year. Other stocks that did well are SEDG with a return of 184.5%, ENPH with a return of 129.5% and FSLR with a return of 101.3%. The code had a timer setup to track how long it took to run through all the data. The results came in 0.75XX seconds for the year 2017. 
+In 2017, the majority of the stocks in our analysis had a positive rate of return except for one which is TERP. As shown in the chart below, TERP ended up with a -7.2% rate of return. Frankly, the stock that was in favor of Steve's parents, DQ, had the highest rate of return amongst the stocks. DQ had a 199.4% return rate that year. Other stocks that did well are SEDG with a return of 184.5%, ENPH with a return of 129.5% and FSLR with a return of 101.3%. The code had a timer setup to track how long it took to run through all the data. The results came in 0.7265625 seconds for the year 2017. 
+
 ![2017 All Stocks Analysis Chart](https://github.com/sydney-chen95/Stock-Analysis/blob/main/Other%20images%20for%20reference/2017%20All%20Stocks%20Analysis%20Chart.png?raw=true)
 ![2017 run time](https://github.com/sydney-chen95/Stock-Analysis/blob/main/Other%20images%20for%20reference/2017%20run%20time.png?raw=true)
 
 
+
 In 2018, the majority of the stocks in our analysis had a negative rate of return. The initially favored stock, DQ, is no longer doing as well as we had hoped. It took a dip down to -62.6% rate of return as shown below. The only stocks with a positive rate of return are ENPH and RUN with a rate of return of 81.9% and 84.0% respectively. The code ran in 0.765625 seconds for the year 2018. 
+
 ![2018 All Stocks Analysis Chart](https://github.com/sydney-chen95/Stock-Analysis/blob/main/Other%20images%20for%20reference/2018%20All%20Stocks%20Analysis%20Chart.png?raw=true)
 ![2018 run time](https://github.com/sydney-chen95/Stock-Analysis/blob/main/Other%20images%20for%20reference/2018%20run%20time.png?raw=true)
+
 
 
 I was able to gather information on all 12 stocks in this dataset but to expand the worksheet to cover the entire stock market over the last few years, I will have to refactor the code to loop through all the data to collect the same information. In this challenge I dim a variable named tickerIndex as an integer type of data to create nested loops for looping through rows of data and collecting the appropriate values needed. Additionally, set up arrays for each ticker name, its volume, and starting/ending prices to calculate the rate of return. The nested loop will loop through each of the items mentioned for every ticker name. With this refactored code, the run time reduced to 0.1503906 seconds for both 2017 and 2018 as shown below.
